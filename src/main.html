@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title><%= htmlWebpackPlugin.options.title %></title>
+        <meta name="viewport" content="width=device-width,initial-scale=1" />
+    </head>
+    <body>
+        <canvas id="gameBoard" width="480" height="640">
+            Your browser does not support the canvas element.
+        </canvas>
+        <div id="score"></div>
+        <button name="restart" onclick="undoState()">Restart</button>
+    </body>
+</html>
